@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Timer", "Timer\Timer.cproj", "{DCE6C7E3-EE26-4D79-826B-08594B9AD897}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "PWM", "PWM\PWM.cproj", "{7E59BDC3-C49F-41EC-8FF3-2ADF897BE6D8}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "UART", "UART\UART.cproj", "{B18F4B6F-2E93-4E55-864F-8C78C2AA547E}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "SPI", "SPI\SPI.cproj", "{622234F5-EBD2-4B8B-98EC-8654A4BCA415}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "SimonSays", "SimonSays\SimonSays.cproj", "{087F09F6-2370-46E1-934A-DF4503B839F4}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Toggle the integrated LED with timer", "Toggle the integrated LED\Toggle the integrated LED with timer.cproj", "{38A32F0A-17AF-4FED-8EB7-FEB4D648F204}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Control the integrated LED with button", "Control the integrated LED with button\Control the integrated LED with button.cproj", "{B0B135FB-F8A8-4D41-866B-5ECE6E22A4C0}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Toggle the integrated LED with button", "Toggle the integrated LED with button\Toggle the integrated LED with button.cproj", "{F9FCF3F7-9ACF-4855-B353-ABE97C32340E}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Control the lights on the OLED1 Xplained Pro", "Control the lights on the OLED1 Xplained Pro\Control the lights on the OLED1 Xplained Pro.cproj", "{9530E2FD-D2A2-432A-928B-BFC7CEBA36F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.Build.0 = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.ActiveCfg = Release|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.Build.0 = Release|AVR
+		{7E59BDC3-C49F-41EC-8FF3-2ADF897BE6D8}.Debug|AVR.ActiveCfg = Debug|AVR
+		{7E59BDC3-C49F-41EC-8FF3-2ADF897BE6D8}.Debug|AVR.Build.0 = Debug|AVR
+		{7E59BDC3-C49F-41EC-8FF3-2ADF897BE6D8}.Release|AVR.ActiveCfg = Release|AVR
+		{7E59BDC3-C49F-41EC-8FF3-2ADF897BE6D8}.Release|AVR.Build.0 = Release|AVR
+		{B18F4B6F-2E93-4E55-864F-8C78C2AA547E}.Debug|AVR.ActiveCfg = Debug|AVR
+		{B18F4B6F-2E93-4E55-864F-8C78C2AA547E}.Debug|AVR.Build.0 = Debug|AVR
+		{B18F4B6F-2E93-4E55-864F-8C78C2AA547E}.Release|AVR.ActiveCfg = Release|AVR
+		{B18F4B6F-2E93-4E55-864F-8C78C2AA547E}.Release|AVR.Build.0 = Release|AVR
+		{622234F5-EBD2-4B8B-98EC-8654A4BCA415}.Debug|AVR.ActiveCfg = Debug|AVR
+		{622234F5-EBD2-4B8B-98EC-8654A4BCA415}.Debug|AVR.Build.0 = Debug|AVR
+		{622234F5-EBD2-4B8B-98EC-8654A4BCA415}.Release|AVR.ActiveCfg = Release|AVR
+		{622234F5-EBD2-4B8B-98EC-8654A4BCA415}.Release|AVR.Build.0 = Release|AVR
+		{087F09F6-2370-46E1-934A-DF4503B839F4}.Debug|AVR.ActiveCfg = Debug|AVR
+		{087F09F6-2370-46E1-934A-DF4503B839F4}.Debug|AVR.Build.0 = Debug|AVR
+		{087F09F6-2370-46E1-934A-DF4503B839F4}.Release|AVR.ActiveCfg = Release|AVR
+		{087F09F6-2370-46E1-934A-DF4503B839F4}.Release|AVR.Build.0 = Release|AVR
+		{38A32F0A-17AF-4FED-8EB7-FEB4D648F204}.Debug|AVR.ActiveCfg = Debug|AVR
+		{38A32F0A-17AF-4FED-8EB7-FEB4D648F204}.Debug|AVR.Build.0 = Debug|AVR
+		{38A32F0A-17AF-4FED-8EB7-FEB4D648F204}.Release|AVR.ActiveCfg = Release|AVR
+		{38A32F0A-17AF-4FED-8EB7-FEB4D648F204}.Release|AVR.Build.0 = Release|AVR
+		{B0B135FB-F8A8-4D41-866B-5ECE6E22A4C0}.Debug|AVR.ActiveCfg = Debug|AVR
+		{B0B135FB-F8A8-4D41-866B-5ECE6E22A4C0}.Debug|AVR.Build.0 = Debug|AVR
+		{B0B135FB-F8A8-4D41-866B-5ECE6E22A4C0}.Release|AVR.ActiveCfg = Release|AVR
+		{B0B135FB-F8A8-4D41-866B-5ECE6E22A4C0}.Release|AVR.Build.0 = Release|AVR
+		{F9FCF3F7-9ACF-4855-B353-ABE97C32340E}.Debug|AVR.ActiveCfg = Debug|AVR
+		{F9FCF3F7-9ACF-4855-B353-ABE97C32340E}.Debug|AVR.Build.0 = Debug|AVR
+		{F9FCF3F7-9ACF-4855-B353-ABE97C32340E}.Release|AVR.ActiveCfg = Release|AVR
+		{F9FCF3F7-9ACF-4855-B353-ABE97C32340E}.Release|AVR.Build.0 = Release|AVR
+		{9530E2FD-D2A2-432A-928B-BFC7CEBA36F3}.Debug|AVR.ActiveCfg = Debug|AVR
+		{9530E2FD-D2A2-432A-928B-BFC7CEBA36F3}.Debug|AVR.Build.0 = Debug|AVR
+		{9530E2FD-D2A2-432A-928B-BFC7CEBA36F3}.Release|AVR.ActiveCfg = Release|AVR
+		{9530E2FD-D2A2-432A-928B-BFC7CEBA36F3}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
